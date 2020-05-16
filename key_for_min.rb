@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   name_hash.map do |key, value|
     if value > low 
       low = value
-      key
+      return key
     end
   end
 end
