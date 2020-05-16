@@ -3,10 +3,4 @@
 
 def key_for_min_value(name_hash)
   low = 1000 
-  name_hash.map do |key, value|
-    if value > low 
-      low = value
-      return key
-    end
-  end
 end
